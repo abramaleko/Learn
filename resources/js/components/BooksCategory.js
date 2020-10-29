@@ -20,7 +20,7 @@ function BooksCategory()
                 </div>
                 <div className="col-md-2">
                 <div className="subject card">
-                <span id="name">Technologies</span>
+                <span id="name">Technology</span>
                 <img src="images/technology.jpg" className="subcategory"/>
                 </div>
                 </div>

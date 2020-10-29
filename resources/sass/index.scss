@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&family=Playfair+Display:wght@500&display=swap');
 .navbar
 {
-    min-height: 70px;
+    max-height: 65px;
     .navbar-brand
     {
         font-family: 'Grenze Gotisch', cursive;
@@ -10,13 +10,13 @@
       }
       .logo
       {
-        width: 95px;
+        width: 60px;
         margin-left: 20px;
       }
         .navbar-collapse
         {
             margin-left: 15rem;
-            font-size: 19px;
+            font-size: 18px;
             font-family: 'Playfair Display', serif;
             @media only screen and (max-width: 600px) {
                 margin-left: 0% !important;
@@ -28,10 +28,11 @@
             }
         }
         }
+
       .category
       {
         font-family: 'Playfair Display', serif;
-        margin-top: 4rem;
+        margin-top: 2rem;
           .subject
           {
               width: 176px;
@@ -58,6 +59,37 @@
             -webkit-transform: scale(1.3); /* Safari 3-8 */
             transform: scale(1.3); 
           }
+      }
+
+
+      .slide
+      {
+        font-family: 'Playfair Display', serif;
+        img 
+        {
+          max-height: 485px;
+          filter: brightness(0.5);
+        }
+        .carousel-caption
+        {
+          top: 2rem;
+          #caption
+          {
+            font-size: 56px;
+            font-weight: 600;
+          }
+          #caption-text
+          {
+            font-size: 21px;
+            }
+            .btn
+            {
+              margin-top: 1.1rem;
+              font-size:1.1rem !important;
+              padding: 0.6777rem 1.4rem !important;
+            }
+        }
+
       }
     
 

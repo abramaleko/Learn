@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link href="css/app.css" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet">
+        <script src="js/popper.min.js"></script>
     </head>
     <body>
       <div id="index">
