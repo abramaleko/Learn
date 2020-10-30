@@ -1,8 +1,9 @@
+import { ajax } from 'jquery';
 import React from 'react';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-md bg-light navbar-light">
+        <nav className="navbar navbar-expand-md bg-light navbar-light fixed-top">
         <img src="images/logo.png" alt="Learn" className="logo"/>
         <a className="navbar-brand" href="#">Learn</a>
          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -31,6 +32,14 @@ function Navbar() {
             <a className="nav-link disabled" href="#">Disabled</a>
             </li>   
             </ul>
+
+            <div className="nav-right ml-auto">
+            <a href="">
+            <img src="images/user.png" alt="login" id="user"/>
+            <span>Log in </span>
+            </a>
+            <a className="btn btn-outline-primary btn-lg sign-up">Sign Up</a>
+            </div>
         </div>  
         </nav>
     );

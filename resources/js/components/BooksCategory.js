@@ -4,6 +4,7 @@ function BooksCategory()
 {
     return (
         <div className="category container">
+            <h1 className="header hover">Categories</h1>
             <div className="row">
 
                 <div className="col-md-2">
