@@ -26,13 +26,48 @@
                 padding-left: 2rem;
 
             }
+            #user
+            {
+              width: 25px;
+              margin-right: 3px;
+            }
+            a
+            {
+              color: inherit !important;
+              text-decoration:none;
+            }
+            .sign-up
+            {
+              padding: 0.67rem 0.9rem !important;
+            border-radius: 2.3rem !important;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            }
         }
         }
 
-      .category
+      .category 
       {
         font-family: 'Playfair Display', serif;
         margin-top: 2rem;
+        margin-bottom: 5rem;
+
+        .header
+        {
+          text-align: center;
+          margin-bottom: 2.3rem;
+          margin-top: 5rem;
+          font-size: 3.25rem;
+          position: relative;
+        }
+        .header:after {
+          margin: auto;
+          padding-top: 7px;
+          content: "";
+          display: block;
+          border-bottom: 4px solid red;
+          width: 11%;
+        }
           .subject
           {
               width: 176px;
@@ -88,8 +123,134 @@
               font-size:1.1rem !important;
               padding: 0.6777rem 1.4rem !important;
             }
+            .books
+            {
+              margin-right: 6px;
+              margin-top: 0px;
+            }
         }
-
       }
     
+      .new-products
+      {
+        font-family: 'Playfair Display', serif;
+        padding-top: 6rem;
 
+        .header
+        {
+          margin-bottom: 2.3rem;
+          font-size: 3.25rem;
+          position: relative;
+        }
+        .header:after {
+          padding-top: 7px;
+          content: "";
+          display: block;
+          border-bottom: 4px solid red;
+          width: 25%;
+        }
+        .product
+        {
+          margin-bottom: 3rem;
+        }
+        .card
+        {
+          width: 12rem;
+          background-color: #f5f5f0;
+          border-radius: 20px;
+          margin-bottom: 10px;
+          
+          .card-body
+          {
+            padding-top: 1rem !important;
+            padding-left: 0.9rem !important;
+            padding-bottom: 1rem !important;
+            .productImage
+            {
+              width: 160px;
+              height: 175px;
+              border-radius: 13px;
+            }
+          }
+          .status
+          {
+            box-sizing: border-box;
+            width: 9rem;
+            text-align: center;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            margin-bottom: -11px;
+            background-color: #293d3d;
+            color: white;
+            font-size: 14px;
+            border-radius: 2px;
+          }
+        }
+         #ProductName
+         {
+            font-size: 18px;
+         }
+         .all 
+         {
+          padding: 0.9rem 3.5rem !important;
+          font-size: 1.5rem !important;         }
+      }
+
+      .Trending
+      {
+        font-family: 'Playfair Display', serif;
+
+        .header
+        {
+          margin-bottom: 2.3rem;
+          font-size: 3.25rem;
+          position: relative;
+          margin-top: 5.5rem;
+        }
+        .header:after {
+          padding-top: 7px;
+          content: "";
+          display: block;
+          border-bottom: 4px solid red;
+          width: 49%;
+        }
+        .topSell
+        {
+          display: flex;
+          margin-bottom: 2rem;
+          .productImage
+          {
+            width: 100px;
+            height: 87px;
+            border-radius: 8px;
+          }
+          .productDetails
+          {
+            padding-left: 1rem;
+            padding-top: 0.5rem;
+            #name
+            {
+              display: block;
+              font-size: 18px;
+            }
+            #price
+            {
+              font-size: 24px;            }
+          }
+        }
+        hr
+        {
+          border-top: 2px solid black;;
+        }
+      }
+
+      .quote
+      {
+        .user
+        {
+          border-radius: 50%;
+            width: 142px;
+            height: 116px;
+            border: 1px solid;
+        }
+      }
