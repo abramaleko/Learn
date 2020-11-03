@@ -14,12 +14,10 @@ function Navbar() {
             <li className="nav-item active">
             <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
             </li>
-            <li className="nav-item">
-            <a className="nav-link" href="#">Link</a>
-            </li>
+         
             <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
+            Book Categories
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
             <a className="dropdown-item" href="#">Action</a>
@@ -29,7 +27,17 @@ function Navbar() {
             </div>
             </li>
             <li className="nav-item">
-            <a className="nav-link disabled" href="#">Disabled</a>
+            <a className="nav-link" href="#">Courses</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link" href="#">Blog</a>
+            </li>
+
+            <li className="nav-item">
+            <a className="nav-link" href="#">Support</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link disabled" href="#">Contact Us</a>
             </li>   
             </ul>
 

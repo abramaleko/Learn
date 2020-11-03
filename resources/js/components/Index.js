@@ -24,7 +24,8 @@ function Index() {
           </div>
       </div>
       </div>
-      
+      <Quote/>
+      <br/><br/><br/><br/><br/>
       </div>
   
     );
