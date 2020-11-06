@@ -17,7 +17,7 @@
         .navbar-collapse
         {
             margin-left: 2rem;
-            font-size: 18px;
+            font-size: 16px;
             font-family: 'Playfair Display', serif;
             @media only screen and (max-width: 600px) {
                 margin-left: 0% !important;
@@ -276,4 +276,48 @@
           height: 135px;
             margin-bottom: 6px;
         }
+      }
+
+      .subscribe
+      {
+        text-align: center;
+        color: white;
+        background-color: black;
+        font-family: 'Playfair Display', serif;
+
+        .header
+        {
+          padding-top: 3rem;
+          .header1
+          {
+            position: relative;
+            padding-bottom: 2rem;
+          }
+          .header1:after {
+            margin: auto;
+            padding-top: 7px;
+            content: "";
+            display: block;
+            border-bottom: 4px solid red;
+            width: 10%;
+          }
+          .headerText
+          {
+            font-size: 17px;
+            padding-bottom: 1rem
+          }
+         input 
+         {
+          width: 40% !important;
+          border-radius:0rem !important;
+         }
+         .btnsubscribe
+         {
+          margin-bottom: 2rem;
+          margin-top: 3rem;
+          padding: 0.5rem 2rem !important;
+          font-size: 18px !important;
+          background-color: #ffb84d;
+         }
+        } 
       }

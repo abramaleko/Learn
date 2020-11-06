@@ -30,17 +30,12 @@ function Navbar() {
             <a className="nav-link" href="#">Courses</a>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="#">Blog</a>
-            </li>
-
-            <li className="nav-item">
             <a className="nav-link" href="#">Support</a>
             </li>
             <li className="nav-item">
             <a className="nav-link disabled" href="#">Contact Us</a>
             </li>   
             </ul>
-
             <div className="nav-right ml-auto">
             <a href="">
             <img src="images/user.png" alt="login" id="user"/>

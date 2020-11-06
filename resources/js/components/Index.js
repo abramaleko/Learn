@@ -6,7 +6,7 @@ import Slider from './Slider'
 import NewProducts from './NewProducts'
 import Trending from './Trending'
 import Quote from './Quote'
-
+import Subscribe from './Subscribe'
 
 function Index() {
     return (
@@ -26,6 +26,7 @@ function Index() {
       </div>
       <Quote/>
       <br/><br/><br/><br/><br/>
+      <Subscribe/>
       </div>
   
     );
