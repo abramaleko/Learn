@@ -1,3 +1,3 @@
 # Learn
  
- This is a home page for an online book shop
+ This is a website for an online book shop
